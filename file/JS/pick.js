@@ -28,16 +28,38 @@ $(document).ready(function() {
         $(".chara_shoose").attr("src", newImgSrc);
     });
 
-    $(".body_between > .change2").click(function() {
-        $('#scene3').show();
-        setTimeout(function() {
-            $('#scene3').hide();
-            $('#scene4').show();
-        }, 3000);
-    });
-});
 
-$(document).ready(function() {
+
+
+    // var paths = [
+    //     "결과화면-student.html",
+    //     "결과화면-cute.html",
+    //     "결과화면-sexy.html",
+    //     "결과화면-men.html",
+    //     "결과화면-clean.html"
+    //   ];
+
+    // $(".change2").click(function() {
+    //     $('#scene3').show();
+    //     $('#scene2').hide();
+    //     setTimeout(function() {
+    //         var randomIndex = Math.floor(Math.random() * paths.length);
+    //         var randomPath = paths[randomIndex];
+      
+    //         location.href = randomPath;
+    //     }, 2000);
+    // });
+
+
+
+    $(".change2").click(function() {
+        $('#scene3').show();
+        $('#scene2').hide();
+        setTimeout(function() {
+            location.href = '../file/결과화면-student.html';
+        }, 2000);
+    });
+
     $(".icon-list").eq(0).show();
 
     $(".list-button").click(function() {
@@ -46,4 +68,9 @@ $(document).ready(function() {
         $(".icon-list").eq(index).show();
     });
 });
+
+
+
+
+
 
