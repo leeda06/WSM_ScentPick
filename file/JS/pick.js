@@ -32,11 +32,11 @@ $(document).ready(function() {
 
 
     // var paths = [
-    //     "결과화면-student.html",
-    //     "결과화면-cute.html",
-    //     "결과화면-sexy.html",
-    //     "결과화면-men.html",
-    //     "결과화면-clean.html"
+    //     "student.html",
+    //     "cute.html",
+    //     "sexy.html",
+    //     "men.html",
+    //     "clean.html"
     //   ];
 
     // $(".change2").click(function() {
@@ -56,7 +56,7 @@ $(document).ready(function() {
         $('#scene3').show();
         $('#scene2').hide();
         setTimeout(function() {
-            location.href = '../file/결과화면-student.html';
+            location.href = '../file/student.html';
         }, 2000);
     });
 
